@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+<body>
+    <h1> OnInput - Example</h1>
+    <p>Hello, my name is<span id="name"></span></p>
+    <input type="text" name="name" placeholder="Your name here" oninput="setName(this)">
+
+    <h1>OnSelect - Example</h1>
+    <select name="food" onchange="pickFood(this">
+        <option>Pizza</option>
+        <option>Kebabs</option>
+        <option>Sandwhich</option>
+        <option>Sushi</option>
+    </select>
+
+    <button onclick="order()">Order Food</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
